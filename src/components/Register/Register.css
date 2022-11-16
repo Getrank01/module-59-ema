@@ -1,0 +1,81 @@
+.form-container {
+  box-sizing: border-box;
+
+  margin: 30px auto;
+  width: 500px;
+  height: 1000px;
+  left: 512px;
+  top: 176px;
+
+  background: #ffffff;
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  /* identical to box height */
+
+  letter-spacing: 0.0025em;
+
+  color: #2a414f;
+}
+
+.input-field {
+  display: block;
+}
+
+.email {
+  border-radius: 10px;
+  margin: 5px 40px;
+  font-size: larger;
+  width: 415px;
+  height: 84px;
+  left: 528px;
+  top: 332px;
+}
+
+.password {
+  margin: 5px 40px;
+  font-size: larger;
+  width: 415px;
+  height: 84px;
+  left: 528px;
+  top: 332px;
+  border-radius: 10px;
+}
+
+.login-btn {
+  margin: 10px 40px;
+  font-size: larger;
+  width: 415px;
+  height: 55px;
+  left: 528px;
+  top: 545px;
+}
+
+.new {
+  margin: 10px 40px;
+  text-decoration: none;
+  color: rgb(250, 167, 0);
+  font-weight: 700;
+}
+
+.forget {
+  font-size: small;
+  margin: 10px 40px;
+}
+.google {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px 40px;
+}
+
+.google:hover {
+  background: rgb(255, 208, 0);
+}
